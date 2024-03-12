@@ -27,14 +27,19 @@ public class Calculadora {
         switch (operadores) {
             case ADICAO:
                 resultado = a + b;
+                break;
             case SUBTRACAO:
                 resultado = a - b;
+                break;
             case DIVISAO:
                 resultado = a / b;
+                break;
             case MULTIPLICACAO:
                 resultado = a * b;
-        }
+                break;
 
+
+        }
 
         System.out.println(resultado);
     }

@@ -1,6 +1,6 @@
 package banco;
 
-public class CriaConta {
+public class CriaConta extends Conta {
     public static void main(String[] args) {
         Conta primeiraConta = new Conta();
         primeiraConta.saldo = 200;

@@ -5,40 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb4cdf56-a396-453a-a3c9-ac000baf3fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Arrays/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ada-aulas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ada-aulas/src/CalculadoraMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays/src/main/java/TestaArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/main/java/TestaArray2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays/target/classes/TestaArray2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/target/classes/TestaArray2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ada-aulas/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ada-aulas/ada-aulas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/ada-aulas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Calculadora$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Calculadora$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Calculadora.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Operadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Operadores.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ada-aulas/src/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/src/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atividades/src/main/java/Exercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atividades/src/main/java/Exercicios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../loja" beforeDir="false" afterPath="$PROJECT_DIR$/../loja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaCaracteres.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaCondicional.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaCondicional2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaConversao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaEscopo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaFatorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaFor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaIR2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaLacos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaLacos2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaMes2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaMultiplos3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaPontoFlutuante.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaProgramaComBreak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaSomatoria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaValores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaVariaveis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaWhile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TesteIR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -180,5 +149,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

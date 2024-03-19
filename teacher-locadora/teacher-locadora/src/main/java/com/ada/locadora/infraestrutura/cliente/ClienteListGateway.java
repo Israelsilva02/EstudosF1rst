@@ -8,8 +8,6 @@ import java.util.List;
 
 public class ClienteListGateway implements ClienteGateway {
 
-    //Simulando um banco de dados em memória
-    //Lista de Cliente
 
     List<Cliente> clientes = new ArrayList<>();
 

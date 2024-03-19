@@ -44,12 +44,12 @@ public class Main {
 
         Locacao locacao = Locacao.criar(cliente);
         locacao.alugar(veiculo, "Aeroporto", 5);
-       locacao.devolver();
+        locacao.devolver();
         System.out.println(locacao.calcularValor());
         locacaoGateway.salvar(locacao);
         List<Locacao> locacoes = locacaoGateway.buscarTodos();
         locacoes.forEach(System.out::println);
-        locacao.alugar(veiculo,"Geração Digital", 4);
+        locacao.alugar(veiculo, "Geração Digital", 4);
         locacao.devolver();
 
     }

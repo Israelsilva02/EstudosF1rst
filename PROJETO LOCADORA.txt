@@ -1,0 +1,32 @@
+PROJETO LOCADORA
+
+Itens obrigatórios
+
+- Cadastrar os veículos;
+- Alterar um veículo cadastrado;
+- Buscar um veículo por parte do nome;
+- Cadastrar o cliente (pessoa física e jurídica)
+- Alterar o cliente (pessoa física e jurídica)
+- Alugar um veículo para pessoa física e jurídica;
+- Devolver um veículo para pessoa física e jurídica;
+
+Regras de negócio
+
+- RN1: Os veículos não podem ser repetidos; 
+  Pode utilizar a placa como identificador de unicidade;
+
+- RN2: Tipos de veículos que serão considerados: PEQUENO, MEDIO e SUV;
+
+- RN3: Os aluguéis e devoluções terão o local, data e horário;
+
+- RN5: Os veículos que estiverem alugados não poderão estar disponíveis;
+
+- RN6: Clientes não podem estar duplicados; 
+  Considerar CPF (Pessoa Física) e CNPJ (Pessoa Jurídica) como identificadores de unicidade;
+
+
+Valores base da diária por tipo de veículo:
+
+PEQUENO - 100,00
+MEDIO 	- 150,00 
+SUV 	- 200,00

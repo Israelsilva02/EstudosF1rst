@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4c3887f-4cce-49c4-91c8-0d0f2b716c15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Arrays/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ada-aulas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ada-aulas/src/CalculadoraMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadora/locadoraAutoF1rst.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadora/src/main/java/br/com/ada/locadora/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadora/src/main/java/br/com/ada/locadora/Identificador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadora/src/main/java/br/com/ada/locadora/domain/cliente/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadora/src/main/java/br/com/ada/locadora/domain/cliente/ClienteGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadora/src/main/java/br/com/ada/locadora/domain/cliente/TipoPessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadora/src/main/java/br/com/ada/locadora/domain/veiculo/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadoraAda/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadoraAda/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadoraAda/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadoraAda/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadoraAda/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadoraAda/locadoraAda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locadoraAda/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../somar/somar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/main/java/TestaArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/main/java/TestaArray2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/target/classes/TestaArray2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/target/classes/TestaArray2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ada-aulas/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ada-aulas/ada-aulas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/ada-aulas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Calculadora$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Calculadora$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Calculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Operadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Operadores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ada-aulas/src/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/src/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atividades/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../atividades/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atividades/src/main/java/Exercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atividades/src/main/java/Exercicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank/src/banco/CriaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank/src/banco/CriaConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loja" beforeDir="false" afterPath="$PROJECT_DIR$/../loja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto-abrigo/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projeto-abrigo/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto-abrigo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projeto-abrigo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaCaracteres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaCondicional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaCondicional2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaConversao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaEscopo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaFatorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaFor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaIR2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaLacos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaLacos2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaMes2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaMultiplos3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaPontoFlutuante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaProgramaComBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaSomatoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaValores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaVariaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TesteIR.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2d0c9yQafS0ApMSyz7nRCRmOhZC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ada.ecommerce.Main" />
+      <module name="ecommerce-ada" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ada.ecommerce.aula3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-4caba194b151-9f4ef98c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4c3887f-4cce-49c4-91c8-0d0f2b716c15" name="Changes" comment="" />
+      <created>1709148292811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709148292811</updated>
+      <workItem from="1709148293912" duration="5318000" />
+      <workItem from="1709574843961" duration="9578000" />
+      <workItem from="1709663261516" duration="339000" />
+      <workItem from="1709753667448" duration="4573000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

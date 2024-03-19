@@ -1,0 +1,317 @@
+@startuml
+
+/' diagram meta data start
+config=StructureConfiguration;
+{
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": false,
+    "cutInterfaceStructures": false,
+    "cutDataStructures": false,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 6,
+    "backwardDepth": 6,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showClassGenericTypes": true,
+    "showMethods": true,
+    "showMethodParameterNames": true,
+    "showMethodParameterTypes": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 2,
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "com.ada.econmerce.domain.cliente.objetos.CNPJ",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_96414 { 
+   	label=ada
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_229682575 { 
+   	label=econmerce
+	labeljust=l
+	fillcolor="#d8d8d8"
+	style=filled
+   
+   CNPJ1029554872[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)CNPJ</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   valor: String [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ criar(id: String): CNPJ</TD></TR>
+<TR><TD ALIGN="LEFT" >- validar()</TD></TR>
+<TR><TD ALIGN="LEFT" >+ valor(): String</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+CPF1029554872[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)CPF</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   valor: String [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ criar(id: String): CPF</TD></TR>
+<TR><TD ALIGN="LEFT" >- validate()</TD></TR>
+<TR><TD ALIGN="LEFT" >+ valor(): String</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Cliente581290588[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Cliente</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   email: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   endereco: Endereco [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   id: Identificador [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   nome: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   tipo: Tipo [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ altearNome(novoNome: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ alterarEmail(novoEmail: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ atualizarEndereco(novoEndereco: Endereco)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ criar(id: Identificador, nome: String, email: String, endereco: Endereco): Cliente</TD></TR>
+<TR><TD ALIGN="LEFT" >+ email(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ endereco(): Endereco</TD></TR>
+<TR><TD ALIGN="LEFT" >+ id(): Identificador</TD></TR>
+<TR><TD ALIGN="LEFT" >+ nome(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ tipo(): Tipo</TD></TR>
+<TR><TD ALIGN="LEFT" >- validar()</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+ClienteAplicacao307890105[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)ClienteAplicacao</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   gateway: ClienteGateway [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ atualizarCliente(id: Identificador, nome: String, email: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ atualizarEndereco(id: Identificador, logradouro: String, bairro: String, cep: String, cidade: String, estado: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ incluirCliente(tipo: Tipo, id: String, nome: String, email: String, logradouro: String, bairro: String, cep: String, cidade: String, estado: String)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+ClienteListGateway1228115713[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)ClienteListGateway</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   clientes: List&lt;Cliente&gt; [0..*]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ atualizar(cliente: Cliente)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ buscarPorId(id: String): Cliente</TD></TR>
+<TR><TD ALIGN="LEFT" >+ buscarTodos(): List&lt;Cliente&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ salvar(cliente: Cliente)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+ClienteMySqlGateway1228115713[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)ClienteMySqlGateway</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ atualizar(cliente: Cliente)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ buscarPorId(id: String): Cliente</TD></TR>
+<TR><TD ALIGN="LEFT" >+ buscarTodos(): List&lt;Cliente&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ salvar(cliente: Cliente)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Identificador1153072048[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Identificador&lt;T&gt;</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ valor(): T</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Produto588770469[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Produto</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   descricao: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   estoque: Integer [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   id: ProdutoID [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   preco: BigDecimal [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ atualizarDescricao(novaDescricao: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ atualizarPreco(novoPreco: BigDecimal)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ aumentarEstoque(quantidade: Integer)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ criar(id: ProdutoID, descricao: String, preco: BigDecimal, estoque: Integer): Produto</TD></TR>
+<TR><TD ALIGN="LEFT" >+ decrementarEstoque()</TD></TR>
+<TR><TD ALIGN="LEFT" >+ descricao(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ diminuirEstoque(quantidade: Integer)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ estoque(): Integer</TD></TR>
+<TR><TD ALIGN="LEFT" >+ id(): ProdutoID</TD></TR>
+<TR><TD ALIGN="LEFT" >+ preco(): BigDecimal</TD></TR>
+<TR><TD ALIGN="LEFT" >+ validar()</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+ProdutoAplicacao1477951684[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)ProdutoAplicacao</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   gateway: ProdutoGateway [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ atualizarCliente(id: ProdutoID, descricao: String, preco: BigDecimal)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ aumentarEstoque(id: ProdutoID, quantidade: Integer)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ decrementarEstoque(id: ProdutoID)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ diminuirEstoque(id: ProdutoID, quantidade: Integer)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ incluirProduto(descricao: String, preco: BigDecimal, estoque: Integer)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+ProdutoID588770469[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)ProdutoID</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   valor: String [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ criar(id: String): ProdutoID</TD></TR>
+<TR><TD ALIGN="LEFT" >+ criar(): ProdutoID</TD></TR>
+<TR><TD ALIGN="LEFT" >+ valor(): String</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+ProdutoListGateway58054134[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)ProdutoListGateway</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   produtos: List&lt;Produto&gt; [0..*]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ atualizar(cliente: Produto)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ buscarPorDescricao(descricao: String): Produto</TD></TR>
+<TR><TD ALIGN="LEFT" >+ buscarPorId(id: String): Produto</TD></TR>
+<TR><TD ALIGN="LEFT" >+ buscarTodos(): List&lt;Produto&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ salvar(cliente: Produto)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+} 
+
+'edges    
+Cliente581290588 -> Identificador1153072048[label="id
+[0..1]"];
+ClienteAplicacao307890105 -> ClienteListGateway1228115713[label="gateway
+[0..1]", arrowhead=none];
+ClienteListGateway1228115713 -> Cliente581290588[label="clientes
+[0..*]"];
+ClienteListGateway1228115713 -> ClienteMySqlGateway1228115713[arrowhead=none];
+Identificador1153072048 -> CNPJ1029554872[arrowhead=none, arrowtail=empty, dir=both];
+Identificador1153072048 -> CPF1029554872[arrowhead=none, arrowtail=empty, dir=both];
+Identificador1153072048 -> ProdutoID588770469[arrowhead=none, arrowtail=empty, dir=both];
+Produto588770469 -> ProdutoID588770469[label="id
+[0..1]"];
+ProdutoAplicacao1477951684 -> ProdutoListGateway58054134[label="gateway
+[0..1]", arrowhead=none];
+ProdutoListGateway58054134 -> Produto588770469[label="produtos
+[0..*]"];
+    
+}
+@enduml

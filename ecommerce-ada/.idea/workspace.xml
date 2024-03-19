@@ -5,58 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c3887f-4cce-49c4-91c8-0d0f2b716c15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Arrays/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ada-aulas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ada-aulas/src/CalculadoraMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadora/locadoraAutoF1rst.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadora/src/main/java/br/com/ada/locadora/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadora/src/main/java/br/com/ada/locadora/Identificador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadora/src/main/java/br/com/ada/locadora/domain/cliente/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadora/src/main/java/br/com/ada/locadora/domain/cliente/ClienteGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadora/src/main/java/br/com/ada/locadora/domain/cliente/TipoPessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadora/src/main/java/br/com/ada/locadora/domain/veiculo/Veiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadoraAda/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadoraAda/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadoraAda/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadoraAda/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadoraAda/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadoraAda/locadoraAda.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locadoraAda/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../somar/somar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays/src/main/java/TestaArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/main/java/TestaArray2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays/target/classes/TestaArray2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/target/classes/TestaArray2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ada-aulas/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ada-aulas/ada-aulas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/ada-aulas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Calculadora$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Calculadora$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Calculadora.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Operadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/out/production/ada-aulas/Operadores.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ada-aulas/src/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ada-aulas/src/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atividades/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../atividades/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atividades/src/main/java/Exercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atividades/src/main/java/Exercicios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank/src/banco/CriaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank/src/banco/CriaConta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loja" beforeDir="false" afterPath="$PROJECT_DIR$/../loja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projeto-abrigo/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projeto-abrigo/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projeto-abrigo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projeto-abrigo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaCaracteres.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaCondicional.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaCondicional2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaConversao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaEscopo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaFatorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaFor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaIR2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaLacos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaLacos2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaMes2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaMultiplos3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaPontoFlutuante.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaProgramaComBreak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaSomatoria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaValores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaVariaveis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TestaWhile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sintaxeVariaveisEfluxo/out/production/sintaxeVariaveisEfluxo/teste/TesteIR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto e-commerce/e-commerce" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto e-commerce/e-commerce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teacher-e-commerce/teacher-e-commerce" beforeDir="false" afterPath="$PROJECT_DIR$/../teacher-e-commerce/teacher-e-commerce" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
